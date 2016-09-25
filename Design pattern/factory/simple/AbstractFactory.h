@@ -13,4 +13,14 @@ public:
 	virtual AbstractProduct *CreateProduct(int type)=0;
 };
 
+class AbstractFactory2
+{
+public:
+	AbstractFactory2();
+	~AbstractFactory2();
+	
+public:
+	virtual AbstractProduct *CreateProduct()=0;
+};
+
 #endif //__ABSTRACTFACTORY_H__
