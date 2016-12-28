@@ -1,4 +1,5 @@
 #include "HTimer.h"
+#include <stdio.h>
 
 HTimer::HTimer()
 {

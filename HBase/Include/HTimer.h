@@ -1,7 +1,7 @@
 #ifndef __HTIMER_H__
 #define __HTIMER_H__
 
-#include "HTimerBase.h"
+#include "HTimerbase.h"
 #include <map>
 
 typedef std::map<unsigned int, HTimerbase *> MAPUNTIMERBASE;
